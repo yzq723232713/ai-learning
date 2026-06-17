@@ -1,0 +1,16 @@
+{
+  "name": "知识库文档",
+  "version": "1.0",
+  "chunks": [
+    {
+      "id": 1,
+      "text": "第一段内容",
+      "source": "doc1.pdf"
+    },
+    {
+      "id": 2,
+      "text": "第二段内容",
+      "source": "doc1.pdf"
+    }
+  ]
+}

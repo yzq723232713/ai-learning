@@ -1,0 +1,23 @@
+[
+  {
+    "filename": "产品手册.txt",
+    "extension": ".txt",
+    "path": "E:\\learn\\day06\\test_docs\\产品手册.txt",
+    "size_bytes": 32,
+    "modified_at": "2026-06-17T15:01:59.793491"
+  },
+  {
+    "filename": "报告.txt",
+    "extension": ".txt",
+    "path": "E:\\learn\\day06\\test_docs\\报告.txt",
+    "size_bytes": 20,
+    "modified_at": "2026-06-17T15:01:59.794489"
+  },
+  {
+    "filename": "需求文档.txt",
+    "extension": ".txt",
+    "path": "E:\\learn\\day06\\test_docs\\需求文档.txt",
+    "size_bytes": 42,
+    "modified_at": "2026-06-17T15:01:59.793491"
+  }
+]
