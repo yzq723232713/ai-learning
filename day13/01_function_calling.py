@@ -139,8 +139,6 @@ def run_agent(user_question: str):
             "content": json.dumps(result, ensure_ascii=False),
         })
 
-        print(f"  [工具调用后的新信息]{messages}")
-
         # 第3步：再次调 LLM，让它基于工具结果生成最终回复
         resp2 = client.chat.completions.create(
             model="deepseek-chat",
