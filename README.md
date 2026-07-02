@@ -28,9 +28,21 @@
 | Day 13 | Function Calling | ✅ |
 | Day 14 | 第 2 周复习 | ✅ |
 
+### 第 3 周：RAG 全链路
+
+| 天数 | 内容 | 状态 |
+|------|------|------|
+| Day 15 | RAG 全景 + 文档加载器 | ✅ |
+| Day 16 | Chunking 三种切分策略 | ✅ |
+| Day 17 | Embedding 管道 + 检索 | ✅ |
+| Day 18 | 向量数据库 Chroma + FAISS | ✅ |
+| Day 19 | 手搓 RAG 全链路（无框架） | ✅ |
+| Day 20 | 检索优化（多路召回 + Reranker） | ✅ |
+| Day 21 | 休息 | — |
+
 ## 目录结构
 
-### 第 1 周
+### 第 1 周：Python 基础
 - `day01/` — Python 基础语法、列表推导式
 - `day02/` — 函数、类、魔术方法、@property
 - `day03/` — Type Hints、dataclass、Pydantic、文件读写
@@ -38,7 +50,7 @@
 - `day05/` — Poetry 包管理、pyproject.toml、dotenv、logging
 - `day06/` — 综合练习（文件扫描器 + 异步下载）
 
-### 第 2 周
+### 第 2 周：LLM 基础
 - `day08/` — Token 概念、tiktoken、中英文 token 效率对比
 - `day09/` — DeepSeek API 调用、temperature、stream、System Prompt
 - `day10/` — Embedding 向量化、余弦相似度、本地模型 bge-small-zh
@@ -47,13 +59,25 @@
 - `day13/` — Function Calling 完整循环、多工具自动选择
 - `day14/` — 第 2 周复习（24 题自检清单）
 
+### 第 3 周：RAG 全链路
+- `day15/` — RAG 两阶段架构、PyMuPDF/python-docx 加载、DocumentLoader
+- `day16/` — 固定长度/按分隔符/递归切分、overlap、RecursiveCharacterTextSplitter
+- `day17/` — Embedding 模型选型、批量向量化、综合流水线（加载→切块→检索）
+- `day18/` — Chroma 基础操作+元数据过滤、FAISS IndexFlatL2/IndexIVFFlat
+- `day19/` — 手搓 RAG 全链路（加载→切块→Embedding→Chroma→拼Prompt→DeepSeek）
+- `day20/` — 多路召回(BM25+RRF)、Reranker(bge-reranker-v2-m3)精排
+
 ## 技术栈
 
 | 类别 | 工具/库 |
 |------|--------|
 | 语言 | Python 3.12 |
 | LLM API | DeepSeek（OpenAI 兼容 SDK） |
-| 向量化 | sentence-transformers、bge-small-zh-v1.5 |
+| 本地 Embedding | sentence-transformers、bge-small-zh-v1.5 |
+| Reranker | bge-reranker-v2-m3（ModelScope 下载） |
+| 向量数据库 | Chroma、FAISS |
+| 关键词检索 | rank-bm25、jieba 分词 |
+| 文档解析 | PyMuPDF、python-docx |
 | 数据校验 | Pydantic |
 | 异步 | asyncio、aiohttp |
 | 包管理 | Poetry |
@@ -62,4 +86,4 @@
 ## 环境
 
 - Python 3.12
-- 依赖见各 day 目录及 pyproject.toml
+- 模型缓存：`~/.cache/huggingface/`（bge-small）、`~/.cache/modelscope/`（bge-reranker）
