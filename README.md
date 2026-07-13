@@ -113,6 +113,9 @@ tests/            # pytest 测试
 - `day26/` — RAGAS 评估：context_precision/recall/faithfulness/answer_relevancy
 - `day27/` — 个人知识库系统：扫描 E:\learn 全部笔记 → RAG 问答
 
+### 第 5 周：项目一 — 企业知识库 RAG
+- [ai-knowledge-base](https://github.com/yzq723232713/ai-knowledge-base) — 独立项目仓库，完整 RAG 系统
+
 ## 技术栈
 
 | 类别 | 工具/库 |
