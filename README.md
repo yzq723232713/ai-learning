@@ -52,6 +52,32 @@
 | Day 27 | 个人知识库实战 | ✅ |
 | Day 28 | 休息 | — |
 
+### 第 5 周：项目一 — 企业知识库 RAG 系统
+
+| 天数 | 内容 | 状态 |
+|------|------|------|
+| Day 29 | 项目规划 + 骨架搭建 | ✅ |
+| Day 30 | 文档加载器 + 测试 | ✅ |
+| Day 31 | 文本切分 + 统计验证 | ✅ |
+
+## 项目
+
+### `ai-knowledge-base/` — 企业知识库 RAG 问答系统
+
+项目目录：`E:\ai-knowledge-base\`
+
+```
+src/
+├── loader/       # 文档加载 (Day 30)
+├── chunker/      # 文本切分 (Day 31)
+├── embedder/     # 向量化
+├── retriever/    # 检索
+├── generator/    # LLM 生成
+└── api/          # FastAPI 接口
+data/test_docs/   # 测试文档
+tests/            # pytest 测试
+```
+
 ## 目录结构
 
 ### 第 1 周：Python 基础
@@ -100,8 +126,10 @@
 | 文档解析 | PyMuPDF、python-docx |
 | 框架 | LangChain、LlamaIndex |
 | 评估 | RAGAS（手写版 + 框架版） |
+| Web 服务 | FastAPI、uvicorn |
 | 数据校验 | Pydantic |
 | 异步 | asyncio、aiohttp |
+| 测试 | pytest |
 | 包管理 | Poetry |
 | 环境变量 | python-dotenv |
 
