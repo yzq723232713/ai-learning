@@ -40,6 +40,18 @@
 | Day 20 | 检索优化（多路召回 + Reranker） | ✅ |
 | Day 21 | 休息 | — |
 
+### 第 4 周：LangChain + LlamaIndex + 高级检索
+
+| 天数 | 内容 | 状态 |
+|------|------|------|
+| Day 22 | LangChain 核心抽象 | ✅ |
+| Day 23 | LangChain RAG 深入 | ✅ |
+| Day 24 | LlamaIndex 入门 | ✅ |
+| Day 25 | 高级 RAG（Self-query / Multi-query / Parent Doc） | ✅ |
+| Day 26 | RAGAS 评估 4 指标 | ✅ |
+| Day 27 | 个人知识库实战 | ✅ |
+| Day 28 | 休息 | — |
+
 ## 目录结构
 
 ### 第 1 周：Python 基础
@@ -67,6 +79,14 @@
 - `day19/` — 手搓 RAG 全链路（加载→切块→Embedding→Chroma→拼Prompt→DeepSeek）
 - `day20/` — 多路召回(BM25+RRF)、Reranker(bge-reranker-v2-m3)精排
 
+### 第 4 周：LangChain + LlamaIndex + 高级检索
+- `day22/` — LangChain 五⼤抽象：PromptTemplate/ChatModel/Chain/Retriever/Document
+- `day23/` — LCEL 管道符链、ConversationBufferMemory 多轮对话
+- `day24/` — LlamaIndex SimpleDirectoryReader、VectorStoreIndex、IngestionPipeline
+- `day25/` — Self-querying、Multi-query、Parent Document Retriever 三种高级检索
+- `day26/` — RAGAS 评估：context_precision/recall/faithfulness/answer_relevancy
+- `day27/` — 个人知识库系统：扫描 E:\learn 全部笔记 → RAG 问答
+
 ## 技术栈
 
 | 类别 | 工具/库 |
@@ -78,6 +98,8 @@
 | 向量数据库 | Chroma、FAISS |
 | 关键词检索 | rank-bm25、jieba 分词 |
 | 文档解析 | PyMuPDF、python-docx |
+| 框架 | LangChain、LlamaIndex |
+| 评估 | RAGAS（手写版 + 框架版） |
 | 数据校验 | Pydantic |
 | 异步 | asyncio、aiohttp |
 | 包管理 | Poetry |
