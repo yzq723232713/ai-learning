@@ -62,7 +62,7 @@
 
 ## 项目
 
-### `ai-knowledge-base/` — 企业知识库 RAG 问答系统
+### [ai-knowledge-base](https://github.com/yzq723232713/ai-knowledge-base) — 企业知识库 RAG 问答系统
 
 项目目录：`E:\ai-knowledge-base\`
 
