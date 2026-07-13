@@ -114,7 +114,10 @@ tests/            # pytest 测试
 - `day27/` — 个人知识库系统：扫描 E:\learn 全部笔记 → RAG 问答
 
 ### 第 5 周：项目一 — 企业知识库 RAG
-- [ai-knowledge-base](https://github.com/yzq723232713/ai-knowledge-base) — 独立项目仓库，完整 RAG 系统
+- Day 29 — 项目规划 + 骨架搭建
+- Day 30 — 文档加载器（4 种格式 + 错误处理）
+- Day 31 — 文本切分（递归降级 + overlap + 统计）
+- [ai-knowledge-base](https://github.com/yzq723232713/ai-knowledge-base) — 项目 GitHub 仓库
 
 ## 技术栈
 
