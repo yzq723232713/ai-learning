@@ -59,6 +59,8 @@
 | Day 29 | 项目规划 + 骨架搭建 | ✅ |
 | Day 30 | 文档加载器 + 测试 | ✅ |
 | Day 31 | 文本切分 + 统计验证 | ✅ |
+| Day 32 | Embedding 模块 | ✅ |
+| Day 33 | 向量存储 + 元数据过滤 | ✅ |
 
 ## 项目
 
@@ -116,7 +118,8 @@ tests/            # pytest 测试
 ### 第 5 周：项目一 — 企业知识库 RAG — [项目仓库](https://github.com/yzq723232713/ai-knowledge-base)
 - `day29` — 项目规划 + 骨架搭建
 - `day30` — 文档加载器（4 种格式 + 错误处理）
-- `day31` — 文本切分（递归降级 + overlap + 统计）
+- `day32` — Embedding 模块（本地 + API 双方案）
+- `day33` — Chroma 向量库封装 + 元数据过滤
 
 ## 技术栈
 
