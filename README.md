@@ -76,8 +76,6 @@ src/
 ├── retriever/    # 检索
 ├── generator/    # LLM 生成
 └── api/          # FastAPI 接口
-data/test_docs/   # 测试文档
-tests/            # pytest 测试
 ```
 
 ## 目录结构
