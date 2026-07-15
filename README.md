@@ -61,6 +61,7 @@
 | Day 31 | 文本切分 + 统计验证 | ✅ |
 | Day 32 | Embedding 模块 | ✅ |
 | Day 33 | 向量存储 + 元数据过滤 | ✅ |
+| Day 34 | 检索模块（混合检索 + Reranker） | ✅ |
 
 ## 项目
 
@@ -119,6 +120,7 @@ src/
 - `day31` — 文本切分（递归降级 + overlap + 统计）
 - `day32` — Embedding 模块（本地 + API 双方案）
 - `day33` — Chroma 向量库封装 + 元数据过滤
+- `day34` — 混合检索（向量+BM25+RRF）+ Reranker 精排
 
 ## 技术栈
 
