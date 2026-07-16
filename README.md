@@ -62,6 +62,9 @@
 | Day 32 | Embedding 模块 | ✅ |
 | Day 33 | 向量存储 + 元数据过滤 | ✅ |
 | Day 34 | 检索模块（混合检索 + Reranker） | ✅ |
+| Day 35 | 生成模块（Prompt + DeepSeek） | ✅ |
+| Day 36 | FastAPI（5 端点 + CORS + 流式） | ✅ |
+| Day 37 | 端到端集成测试 | ✅ |
 
 ## 项目
 
@@ -121,6 +124,9 @@ src/
 - `day32` — Embedding 模块（本地 + API 双方案）
 - `day33` — Chroma 向量库封装 + 元数据过滤
 - `day34` — 混合检索（向量+BM25+RRF）+ Reranker 精排
+- `day35` — Generator 生成模块（Prompt 拼接 + 流式 + 引用）
+- `day36` — FastAPI 5 端点（upload/search/chat/stream）+ CORS
+- `day37` — 端到端集成测试
 
 ## 技术栈
 
