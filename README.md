@@ -65,6 +65,7 @@
 | Day 35 | 生成模块（Prompt + DeepSeek） | ✅ |
 | Day 36 | FastAPI（5 端点 + CORS + 流式） | ✅ |
 | Day 37 | 端到端集成测试 | ✅ |
+| Day 38 | Streamlit 极简 UI | ✅ |
 
 ## 项目
 
@@ -127,6 +128,7 @@ src/
 - `day35` — Generator 生成模块（Prompt 拼接 + 流式 + 引用）
 - `day36` — FastAPI 5 端点（upload/search/chat/stream）+ CORS
 - `day37` — 端到端集成测试
+- `day38` — Streamlit UI（文件上传 + 流式问答）
 
 ## 技术栈
 
