@@ -1,4 +1,4 @@
-# AI 应用开发学习记录
+﻿# AI 应用开发学习记录
 
 从零自学 AI 应用开发（RAG、Agent、大模型应用），4 个月学习路线。
 
@@ -66,12 +66,13 @@
 | Day 36 | FastAPI（5 端点 + CORS + 流式） | ✅ |
 | Day 37 | 端到端集成测试 | ✅ |
 | Day 38 | Streamlit 极简 UI | ✅ |
+| Day 39 | RAGAS 评估 + 优化日记 | ✅ |
 
 ## 项目
 
 ### [ai-knowledge-base](https://github.com/yzq723232713/ai-knowledge-base) — 企业知识库 RAG 问答系统
 
-项目目录：`E:\ai-knowledge-base\`
+项目目录：`D:\ai-knowledge-base\`
 
 ```
 src/
@@ -116,7 +117,7 @@ src/
 - `day24/` — LlamaIndex SimpleDirectoryReader、VectorStoreIndex、IngestionPipeline
 - `day25/` — Self-querying、Multi-query、Parent Document Retriever 三种高级检索
 - `day26/` — RAGAS 评估：context_precision/recall/faithfulness/answer_relevancy
-- `day27/` — 个人知识库系统：扫描 E:\learn 全部笔记 → RAG 问答
+- `day27/` — 个人知识库系统：扫描 D:\learn 全部笔记 → RAG 问答
 
 ### 第 5 周：项目一 — 企业知识库 RAG — [项目仓库](https://github.com/yzq723232713/ai-knowledge-base)
 - `day29` — 项目规划 + 骨架搭建
