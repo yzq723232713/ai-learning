@@ -130,6 +130,7 @@ src/
 - `day36` — FastAPI 5 端点（upload/search/chat/stream）+ CORS
 - `day37` — 端到端集成测试
 - `day38` — Streamlit UI（文件上传 + 流式问答）
+- `day39` — RAGAS 评估 + 优化日记（三策略对比：Baseline/Hybrid/Hybrid+Rerank）
 
 ## 技术栈
 
