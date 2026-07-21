@@ -67,6 +67,9 @@
 | Day 37 | 端到端集成测试 | ✅ |
 | Day 38 | Streamlit 极简 UI | ✅ |
 | Day 39 | RAGAS 评估 + 优化日记 | ✅ |
+| Day 40 | Hybrid+Reranker 接入 + 优化落地 | ✅ |
+| Day 41 | 多轮对话 + 完善 README | ✅ |
+| Day 42 | 里程碑检验 + 项目收尾 | ✅ |
 
 ## 项目
 
@@ -131,7 +134,9 @@ src/
 - `day37` — 端到端集成测试
 - `day38` — Streamlit UI（文件上传 + 流式问答）
 - `day39` — RAGAS 评估 + 优化日记（三策略对比：Baseline/Hybrid/Hybrid+Rerank）
-
+- `day40` — 评估结论落地：/chat 升级 Hybrid+Reranker
+- `day41` — 多轮对话（Generator/API/Streamlit 三层）
+- `day42` — 里程碑检验 + 项目收尾
 ## 技术栈
 
 | 类别 | 工具/库 |
